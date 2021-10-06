@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="canales de contacto, presupuestos de muebles, amoblamiento de interiores, trabajos a pedido">
+    <meta name="description" content="Te brindamos los medios para que nos pongamos en contacto, no dudes en consultarnos">
+    <title>Contacto | Canales de contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img src="../Imagenes/Logo.jpg" alt="Logo muebles zipoli">
+      <h1>Contactate con nosotros</h1>
+      <h2>Te brindamos los canales de contacto para que nos consultes.</h2>
+    </header>
+    <!--Navegador-->
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobreNosotros.html">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nuestrosMuebles.html">Nuestros muebles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="materiales.html">Materiales</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h3 class="contacto">Nos mantengamos en contacto</h3>
+    <p class="informacionDeProductos">Si queres obtener información sobre nuestros productos o que te presupuestemos un trabajo a medida, llena tus datos.</p>
+    <!--Formulario que contenga al menos un input, un menu desplegable, checkbox, boton para resetear y boton para enviar-->
+    <main>
+      <form class="formulario" action="" method="POST">
+        <fieldset class="contenedor">
+          <legend class="datos">Completa los datos y nos ponemos en contacto con vos.</legend>
+          <!--nombre-->
+          <label for="nombre">
+          <span class="cualEsTuNombre">¿Cuál es tu nombre?</span>
+          <input type="text" id="nombre" placeholder="Escribi tu nombre">
+          </label>
+          <!--apellido-->
+          <label class="apellido" for="apellido">
+          <span>¿Cuál es tu apellido?</span>
+          <input type="text" id="apellido" placeholder="Escribi tu apellido">
+          </label>
+          <!--correo electronico-->
+          <label class="correo" for="email">
+          <span>Ingrese su correo electronico</span>
+          <input type="email" id="email" placeholder="Escribi tu correo">
+          </label>
+          <!--Fecha de nacimiento-->
+          <label class="fecha" for="fecha">
+          <span>Fecha de nacimiento</span>
+          <input type="date" id="fecha">
+          </label>
+          <!--Genero-->
+          <div>
+            <P class="generoFormulario">Género</P>
+            <select name="genero" id="">
+              <option value="Hombre">Hombre</option>
+              <option value="Mujer">Mujer</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </div>
+          <!--Checkbox-->
+          <label for="acepta">
+          <span class="terminosCondiciones" >Acepta terminos y condiciones</span>
+          <input type="checkbox" id="acepta" name="acepta" value="1">
+          </label>
+          <input type="submit" value="Enviar ahora">
+          <input type="reset" value="Limpiar">
+        </fieldset>
+      </form>
+    </main>
+    <div>
+      <p class="otrosMedios">Algunos otros medios</p>
+      <ul class="desafioComplementario">
+        <li class="elementoLi"><a href="https://www.instagram.com/?hl=es">Instagram</a></li>
+        <li class="elementoLi"><a href="https://es-la.facebook.com/">Facebook</a></li>
+        <li class="elementoLi">
+          <a href="#">Correos electronicos</a>
+          <ul>
+            <li><a class="linkGmail" href="https://www.google.com/intl/es-419/gmail/about/">Gmail</a></li>
+            <li><a href="https://office.live.com/start/Outlook.aspx?ui=es-ES">Outlook</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!--Footer-->
+    <footer>
+      <h4>
+        <li>¿Cómo comprar en línea?</li>
+        <li>Preguntas frecuentes</li>
+        <li>Dirección</li>
+      </h4>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
