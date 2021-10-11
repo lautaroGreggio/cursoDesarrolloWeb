@@ -1,0 +1,305 @@
+
+* {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Se declara operacion para poder cumplir con el desafio  operaciones de SAAS */
+
+$altura: 100px;
+
+body {
+	background-color: #ffffff;
+}
+header {
+	padding: 15px;
+	height: 150px;
+	border-bottom: 5px solid #212529;
+	background-color: #212529;
+	img {
+		width: 80px;
+		border: 1px solid #ffffff;
+	}
+	h1 {
+		color: #9F42CD;
+		text-transform: uppercase;
+		letter-spacing: normal;
+		text-align: center;
+		margin-top: -50px;
+	}
+}
+h2 {
+	color: #ffffff;
+	text-decoration: underline;
+	transform: translateY(30px);
+}
+ul {
+	li {
+		a {
+			color: #ffffff;
+			text-decoration: none;
+			border-radius: 10px;
+			padding: 5px;
+		}
+		list-style-type: none;
+		display: inline-block;
+		margin: 10px 10px;
+		color: #ffffff;
+		&:hover {
+			ul {
+				display: block;
+				background: #212529;
+				border-radius: 15px;
+			}
+		}
+	}
+	ul {
+		position: absolute;
+		display: none;
+		li {
+			display: block;
+		}
+	}
+}
+p {
+	color: #000000;
+}
+
+/* Acá utilizo la operacion de multplicar para cumplir con el desafio (height: $altura * 2;)*/ 
+
+footer {
+	color: #ffffff;
+	background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 32%, rgba(0, 212, 255, 1) 93%);
+	width: 100%;
+	height: $altura * 2;
+	margin-top: 700px;
+	h4 {
+		display: flex;
+		justify-content: space-around;
+		font-size: 19px;
+	}
+}
+.mainIndex {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
+}
+.proyectosDestacados {
+	color: #9F42CD;
+	margin: 50px 200px 10px 10px;
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+.productoDeLaSemana {
+	color: #9F42CD;
+	margin: 50px 200px 10px 10px;
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+.containerCards {
+	width: 100%;
+	max-width: 1200px;
+	height: 430px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	transform: translateY(250px);
+	.card {
+		background: linear-gradient(0deg, rgba(159, 66, 205, 1) 18%, rgba(163, 135, 177, 1) 64%);
+		width: 330px;
+		height: 430px;
+		border-radius: 8px;
+		box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+		overflow: hidden;
+		margin: 20px;
+		text-align: center;
+		transition: all 0.25;
+		&:hover {
+			transform: translateY(-15px);
+			box-shadow: 0 12px 16px rgba(0, 0, 0, 0);
+		}
+		img {
+			width: 300px;
+			height: 100px;
+		}
+		p {
+			padding: 0 1rem;
+			font-size: 16px;
+			font-weight: 300;
+		}
+	}
+}
+.quienesSomos {
+	color: #9F42CD;
+	margin: 50px 200px 10px 10px;
+	grid-column: 1/2;
+}
+.porqueElegirnos {
+	color: #9F42CD;
+	margin: 50px 200px 10px 10px;
+	grid-column: 2/3;
+	grid-row: 1;
+}
+.mainNosotros {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
+}
+.materiales {
+	color: #9F42CD;
+	margin: 50px 200px 10px 10px;
+}
+.precio {
+	margin: 20px 10px;
+}
+.video {
+	margin: 20px 10px;
+	padding: 20px 20px;
+	text-decoration: underline;
+}
+.videoExplicativo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	box-shadow: 10px 10px 111px 7px rgba(0, 0, 0, 1);
+}
+.contacto {
+	color: #9F42CD;
+	margin: 50px 200px 10px 10px;
+}
+.informacionDeProductos {
+	color: #9F42CD;
+	margin: 50px 200px 10px 10px;
+}
+.formulario {
+	margin: 50px 200px 10px 10px;
+	background: #212529;
+	width: 100%;
+	color: #ffffff;
+}
+.contenedor {
+	margin: 50px 200px 10px 10px;
+	background: #212529;
+	width: 100%;
+	color: #ffffff;
+}
+.datos {
+	margin: 50px 200px 10px 10px;
+	color: #ffffff;
+}
+.cualEsTuNombre {
+	display: block;
+	margin: 5px;
+	color: #ffffff;
+}
+.apellido {
+	display: block;
+	margin: 5px;
+	color: #ffffff;
+}
+.correo {
+	display: block;
+	margin: 5px;
+	color: #ffffff;
+}
+.fecha {
+	display: block;
+	margin: 5px;
+	color: #ffffff;
+}
+.generoFormulario {
+	color: #ffffff;
+}
+.terminosCondiciones {
+	color: #ffffff;
+}
+.otrosMedios {
+	margin: 100px 200px 10px 10px;
+	color: #ffffff;
+	border-top: 5px solid #212529;
+	width: 100%;
+	padding: 20px;
+	text-decoration: underline #000000;
+	background: #212529;
+}
+.desafioComplementario {
+	list-style: none;
+}
+.elementoLi {
+	display: inline-block;
+	width: 25%;
+	position: relative;
+	font-size: 14px;
+	background: #212529;
+	border-radius: 15px;
+	padding: 3px;
+}
+.trabajos {
+	color: #9F42CD;
+	margin: 50px 200px 10px 10px;
+	padding: 30px;
+}
+.escritorio {
+	height: 700px;
+	width: 580px;
+	display: block;
+	margin: 10px;
+	box-shadow: 15px 14px 15px 10px rgba(0, 0, 0, 0.69);
+}
+.mesaDeRoble {
+	height: 700px;
+	width: 580px;
+	margin: 10px;
+	box-shadow: 15px 14px 15px 10px rgba(0, 0, 0, 0.69);
+}
+.trabajosRealizados {
+	display: flex;
+	justify-content: space-around;
+}
+.comprarEnLinea {
+	text-align: center;
+	margin-top: 25px;
+	width: 100%;
+}
+table {
+	tr {
+		th {
+			background-color: #9F42CD;
+			border: 1px solid;
+		}
+	}
+}
+@media (max-width: 460px) {
+	header {
+		img {
+			display: none;
+		}
+		h1 {
+			color: #9F42CD;
+			text-transform: uppercase;
+			letter-spacing: normal;
+			text-align: center;
+			margin: 0%;
+		}
+	}
+	ul {
+		li {
+			a {
+				color: #0023FF;
+				text-decoration: none;
+			}
+			list-style-type: none;
+			margin: 10px 10px;
+			display: flex;
+		}
+	}
+	footer {
+		h4 {
+			display: inline-block;
+			justify-content: space-around;
+		}
+	}
+}
