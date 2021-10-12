@@ -90,6 +90,8 @@ footer h4 {
   font-size: 19px;
 }
 
+/* Estilo particular de mi index. */
+
 .mainIndex {
   display: -ms-grid;
   display: grid;
@@ -171,6 +173,8 @@ footer h4 {
   font-weight: 300;
 }
 
+/* Estilo particular de "sobreNosotros" (Aca aplique Grid, para cumplir el desafio) */
+
 .quienesSomos {
   color: #9F42CD;
   margin: 50px 200px 10px 10px;
@@ -198,6 +202,8 @@ footer h4 {
       grid-template-rows: auto auto;
 }
 
+/* Estilo particular de "materiales" */
+
 .materiales {
   color: #9F42CD;
   margin: 50px 200px 10px 10px;
@@ -220,6 +226,8 @@ footer h4 {
   -webkit-box-shadow: 10px 10px 111px 7px black;
           box-shadow: 10px 10px 111px 7px black;
 }
+
+/* Estilo particular de "contacto" */
 
 .contacto {
   color: #9F42CD;
@@ -282,6 +290,8 @@ footer h4 {
   color: #ffffff;
 }
 
+/* Desafio complementario de hacer un desplegable */
+
 .otrosMedios {
   margin: 100px 200px 10px 10px;
   color: #ffffff;
@@ -306,6 +316,8 @@ footer h4 {
   border-radius: 15px;
   padding: 3px;
 }
+
+/* Estilo particular de "nuestrosMuebles" */
 
 .trabajos {
   color: #9F42CD;
@@ -348,6 +360,8 @@ table tr th {
   background-color: #9F42CD;
   border: 1px solid;
 }
+
+/* Mediqueries */
 
 @media (max-width: 460px) {
   header img {
