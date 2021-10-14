@@ -392,3 +392,36 @@ table tr th {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+@media (max-width: 1110px) {
+  
+  footer {
+    color: #ffffff;
+    background: radial-gradient(circle, #020024 0%, #090979 32%, #00d4ff 93%);
+    width: 100%;
+    height: 200px;
+    margin-top: 800px;
+  }
+}
+
+
+@media (max-width: 735px) {
+  footer {
+    color: #ffffff;
+    background: radial-gradient(circle, #020024 0%, #090979 32%, #00d4ff 93%);
+    width: 100%;
+    height: 200px;
+    margin-top: 850px;
+  }
+}
+
+@media (max-width: 730px) {
+
+  footer {
+    color: #ffffff;
+    background: radial-gradient(circle, #020024 0%, #090979 32%, #00d4ff 93%);
+    width: 100%;
+    height: 200px;
+    margin-top: 1300px;
+  }
+}
