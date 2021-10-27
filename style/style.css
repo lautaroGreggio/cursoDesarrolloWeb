@@ -408,4 +408,11 @@ table tr th {
   }
 }
 
+@media (max-width: 292px) {
+
+  .ofertaDeLaSemana {
+    margin-left: 0.5px;
+    
+  }
+}
 
