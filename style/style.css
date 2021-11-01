@@ -7,6 +7,7 @@
           box-sizing: border-box;
 }
 
+
 /* Se declara operacion para poder cumplir con el desafio  operaciones de SAAS */
 body {
   background-color: #ffffff;
@@ -235,9 +236,7 @@ footer h4 {
 }
 
 .contenedor {
-  margin: 50px 200px 10px 10px;
   background: #212529;
-  width: 100%;
   color: #ffffff;
 }
 
@@ -281,14 +280,14 @@ footer h4 {
 /* Desafio complementario de hacer un desplegable */
 
 .otrosMedios {
-  margin: 100px 200px 10px 10px;
+  margin-top: 150px;
   color: #ffffff;
   border-top: 5px solid #212529;
-  width: 100%;
   padding: 20px;
   -webkit-text-decoration: underline #000000;
           text-decoration: underline #000000;
   background: #212529;
+  max-width: 100%;
 }
 
 .desafioComplementario {
