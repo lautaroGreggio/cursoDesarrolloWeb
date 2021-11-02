@@ -7,7 +7,6 @@
           box-sizing: border-box;
 }
 
-
 /* Se declara operacion para poder cumplir con el desafio  operaciones de SAAS */
 body {
   background-color: #ffffff;
@@ -251,6 +250,11 @@ footer h4 {
   color: #ffffff;
 }
 
+.nombre {
+  display: block; 
+  
+}
+
 .apellido {
   display: block;
   margin: 5px;
@@ -369,7 +373,7 @@ table tr th {
     display: flex;
   }
   ul li a {
-    color: #0023FF;
+    color: #ffffff;
     text-decoration: none;
   }
   footer h4 {
